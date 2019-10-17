@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Counter from './component/Counter';
 
-ReactDOM.render(
-  <div>Hiiii</div>, document.getElementById('root')
-);
+ReactDOM.render(<Counter />, document.getElementById('root'));
